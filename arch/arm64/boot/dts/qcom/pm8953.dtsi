@@ -369,22 +369,6 @@
 };
 
 &thermal_zones {
-	xo-therm-adc {
-		polling-delay-passive = <0>;
-		polling-delay = <0>;
-		thermal-sensors = <&pm8953_adc_tm 0x32>;
-		thermal-governor = "user_space";
-		wake-capable-sensor;
-
-		trips {
-			active-config0 {
-				temperature = <65000>;
-				hysteresis = <1000>;
-				type = "passive";
-			};
-		};
-	};
-
 	xo-therm-buf-adc {
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
