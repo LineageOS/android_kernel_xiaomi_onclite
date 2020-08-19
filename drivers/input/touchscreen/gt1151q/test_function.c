@@ -211,8 +211,8 @@ static void _get_channel_average_value(void)
 {
 	int i;
 	if (current_data_index == 0) {
-		memset(channel_average, 0, sizeof(channel_average) / sizeof(channel_average[0]));
-		memset(channel_average, 0, sizeof(channel_square_average) / sizeof(channel_square_average[0]));
+		memset(channel_average, 0, sizeof(printk) / sizeof(channel_average[0]));
+		memset(channel_average, 0, sizeof(printk) / sizeof(channel_square_average[0]));
 	}
 
 	for (i = 0; i < sys.sc_sensor_num * sys.sc_driver_num; i++) {
