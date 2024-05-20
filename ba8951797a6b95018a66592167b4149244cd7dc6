@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0aeb580_a4433a86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-05-20T17:25:27Z",
+      "side": 1,
+      "message": "I believe they both have size (sys.max_driver_num * sys.max_sensor_num + 10) * sizeof(int) but they seem to be already initialized in _alloc_test_memory() so just removing this code seems a better solution",
+      "revId": "ba8951797a6b95018a66592167b4149244cd7dc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
